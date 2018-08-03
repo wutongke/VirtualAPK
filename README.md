@@ -1,3 +1,10 @@
+# Might todo
+* User can choose the supports of Activity, Service, Receiver and Provider
+* Check Android Gradle Plugin compatibility
+* Check Android O support
+
+
+
 # <img src="imgs/va-logo.png" width="200px" align="center" alt="VirtualAPK"/>
 [![license](http://img.shields.io/badge/license-Apache2.0-brightgreen.svg?style=flat)](https://github.com/didi/VirtualAPK/blob/master/LICENSE)
 [![Release Version](https://img.shields.io/badge/release-0.9.6-red.svg)](https://github.com/didi/VirtualAPK/releases)
