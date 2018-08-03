@@ -1,0 +1,23 @@
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+[INFO][VAPlugin] Evaluating VirtualApk's configurations...
+:app:clean
+:app:preBuild UP-TO-DATE
+:app:extractProguardFiles
+:app:preBeijingReleaseBuild
+Download https://jcenter.bintray.com/com/didi/virtualapk/core/0.9.6/core-0.9.6.pom
+Download https://jcenter.bintray.com/com/didi/virtualapk/core/0.9.6/core-0.9.6.aar
+[INFO][PrepareDependenciesHooker] Need strip aar: com.android.support:appcompat-v7:23.4.0
+[INFO][PrepareDependenciesHooker] Need retain aar: com.didi.virtualapk:core:0.9.6
+[INFO][PrepareDependenciesHooker] Need strip aar: com.android.support:animated-vector-drawable:23.4.0
+[INFO][PrepareDependenciesHooker] Need strip aar: com.android.support:support-vector-drawable:23.4.0
+[INFO][PrepareDependenciesHooker] Need strip aar: com.android.support:support-v4:23.4.0
+[INFO][PrepareDependenciesHooker] Need strip jar: com.android.support:support-annotations:23.4.0
+[INFO][AarDependenceInfo] Found [com.android.support:appcompat-v7:23.4.0@aar]'s jar file: /home/erfli/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/230e7a6e78b8322d351581373f77be5b/jars/classes.jar
+[INFO][AarDependenceInfo] Found [com.android.support:animated-vector-drawable:23.4.0@aar]'s jar file: /home/erfli/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/32f2e2a48b2376275c8687de76936854/jars/classes.jar
+[INFO][AarDependenceInfo] Found [com.android.support:support-vector-drawable:23.4.0@aar]'s jar file: /home/erfli/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/8ee4e5dad8c5a483b8e24cb0b53e00ab/jars/classes.jar
+[INFO][AarDependenceInfo] Found [com.android.support:support-v4:23.4.0@aar]'s jar file: /home/erfli/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/2f3c0490825389f4d75ae3ec97d3ee9f/jars/classes.jar
+[INFO][JarDependenceInfo] Found [com.android.support:support-annotations:23.4.0@jar]'s jar file: /home/erfli/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar
+[INFO][AarDependenceInfo] Found [com.didi.virtualapk:core:0.9.6@aar]'s jar file: /home/erfli/.gradle/caches/transforms-1/files-1.1/core-0.9.6.aar/2dbdf0733b16aec18bdceafabaee0861/jars/classes.jar
+3 actionable tasks: 3 executed
+adb: error: cannot stat 'app/build/outputs/apk/app-beijing-release-unsigned.apk': No such file or directory
+Starting: Intent { cmp=com.didi.virtualapk/.MainActivity }

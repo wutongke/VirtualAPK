@@ -47,9 +47,11 @@ class PrepareDependenciesHooker extends GradleTaskHooker<AppPreBuildTask> {
 
         hostDependencies.addAll(virtualApk.hostDependencies.keySet())
 
+
         virtualApk.excludes.each { String artifact ->
             final def module = artifact.split(':')
             hostDependencies.add("${module[0]}:${module[1]}")
+            Log.i(module[0] + ":" +module[1])
         }
     }
 
